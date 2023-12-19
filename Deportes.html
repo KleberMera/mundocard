@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Estilos-->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/utils.min.css">
+        <link href="css/style.css" rel="stylesheet">
+        <!--Scripts-->
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/6e43ba0d83.js" crossorigin="anonymous"></script>
+        <title>Coordinación Deportiva - Deportes</title>
+    </head>
+    <body>
+        <header>
+            <section class="colores_principales container-fluid d-flex justify-content-center px-3 py-2">
+                <div class="banner">
+                    <img src="img/upse.png" alt="logo upse" id="logo"/>
+                    <h5>Coordinación Deportiva - UPSE</h5>
+                </div>
+            </section>
+            <section>
+                <div class="container-fluid">
+                    <div class="row colores_principales">
+                        <div class="col-lg-9 d-none d-lg-block">
+                            <nav class="navbar navbar-dark" aria-label="Dark offcanvas navbar">
+                                <a class="navbar-brand" href="index.html">Inicio</a>
+                                <a class="navbar-brand" href="QuienesSomos.html">¿Quiénes somos?</a>
+                                <div class="nav-item dropdown">
+                                    <a class="navbar-brand dropdown-toggle" data-bs-toggle="dropdown"
+                                       href="Deportes.html">Deportes</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="Deportes.html#futbol">Fútbol</a></li>
+                                        <li><a class="dropdown-item" href="Deportes.html#taekwondo">taekwondo</a></li>
+                                        <li><a class="dropdown-item" href="Deportes.html#basketball">Basketball</a></li>
+                                        <li><a class="dropdown-item" href="Deportes.html#natacion">Natación</a></li>
+                                        <li><a class="dropdown-item" href="Deportes.html#opengym">Open Gym</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="Deportes.html">Deportes</a></li>
+                                    </ul>
+                                </div>
+                                <a class="navbar-brand" href="Instalaciones.html">Instalaciones</a>
+                                <a class="navbar-brand" href="https://sga.upse.edu.ec/aplicacion/#/card/listado-reservas"
+                                   target="_blank">Mundo CARD <i class="fa-solid fa-arrow-up-right-from-square mx1"></i></a>
+                            </nav>
+                        </div>
+                            <div class="col-lg-3 ms-auto justify-content-end d-flex">
+                                <nav class="colores_principales navbar navbar-dark" aria-label="Dark offcanvas navbar">
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                            data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark"
+                                            aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="offcanvas offcanvas-end colores_principales" tabindex="-1" id="offcanvasNavbarDark"
+                                         aria-labelledby="offcanvasNavbarDarkLabel">
+                                        <div class="offcanvas-header">
+                                            <button type="button" class="btn-close btn-close-white"
+                                                    data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body fs-5">
+                                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="QuienesSomos.html">¿Quiénes somos?</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                                       data-bs-toggle="dropdown" aria-expanded="false">Deportes</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item"
+                                                               href="Deportes.html#futbol">Fútbol</a></li>
+                                                        <li><a class="dropdown-item"
+                                                               href="Deportes.html#taekwondo">Taekwondo</a></li>
+                                                        <li><a class="dropdown-item"
+                                                               href="Deportes.html#basketball">Basketball</a></li>
+                                                        <li><a class="dropdown-item"
+                                                               href="Deportes.html#natacion">Natación</a></li>
+                                                        <li><a class="dropdown-item"
+                                                               href="Deportes.html#opengym">Open Gym</a></li>
+                                                        <li>
+                                                            <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item"
+                                                               href="Deportes.html">Deportes</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="Instalaciones.html">Instalaciones</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                       href="https://sga.upse.edu.ec/aplicacion/#/card/listado-reservas"
+                                                       target="_blank">Mundo CARD
+                                                        <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
+            </section>
+        </header>
+        <main>
+            <section id="futbol">
+                <div class="card shadow mb-4">
+                    <div class="d-block card-header py-3">
+                        <h6 class="m-0 font-weight-bold fs-3 text-danger">Fútbol</h6>
+                    </div>
+                    <div class="card-body">
+                        <!--Descripción-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left font-weight-bold text-info
+                                            text-uppercase mb-1 text-lg">Descripción
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800 text-justify">El fútbol es un deporte de equipo que se
+                                                        juega entre dos equipos de once jugadores cada uno. El objetivo
+                                                        del juego es marcar goles al colocar la pelota en la portería del equipo
+                                                        contrario. Se juega en un campo rectangular con dos porterías
+                                                        en cada extremo.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Beneficios-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left font-weight-bold text-primary text-lg
+                                            text-uppercase mb-1">Beneficios
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800">
+                                                        <ul>
+                                                            <li>Mejora la condición física</li>
+                                                            <li>Desarrollo de habilidades técnicas</li>
+                                                            <li>Fomenta la disciplina y el trabajo en equipo</li>
+                                                            <li>Promueve la salud mental</li>
+                                                            <li>Desarrolla habilidades sociales</li>
+                                                            <li>Enseña valores importantes</li>
+                                                            <li>Fomenta la diversión y el espíritu competitivo</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Instructor-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left text-lg font-weight-bold text-success
+                                            text-uppercase mb-1">Instructor
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="card" style="width:70%">
+                                                        <img class="card-img-top" src="img/entrenador.png" alt="Card image" style="width:50%">
+                                                        <div class="card-body">
+                                                          <h4 class="card-title">Lcdo. Luis Poma Barragan, Mgtr.</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Indumentaria-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-dark shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left text-lg font-weight-bold text-dark
+                                            text-uppercase mb-1">Indumentaria</div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800">
+                                                        <ul>
+                                                            <li>Camiseta: Preferiblemente de material transpirable y con mangas cortas o largas, dependiendo de las condiciones climáticas.</li>
+                                                            <li>Pantalones cortos: Cómodos y resistentes, ideales para facilitar el movimiento.</li>
+                                                            <li>Calcetines: Que cubran completamente la espinilla y se ajusten cómodamente.</li>
+                                                            <li>Zapatos de fútbol: Con tacos para proporcionar tracción en el césped y suela diseñada para el tipo de superficie (césped natural o artificial).</li>
+                                                            <li>Espinilleras: Para proteger la espinilla de impactos y lesiones.</li>
+                                                            <li>Guantes (para porteros): Opcional, pero esencial para los porteros que deseen proteger sus manos.</li>
+                                                            <li>Cinta para el cabello (opcional): Para aquellos con cabello largo, puede ser útil mantenerlo fuera del rostro durante el juego.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="taekwondo">
+                <div class="card shadow mb-4">
+                    <div class="d-block card-header py-3">
+                        <h6 class="m-0 font-weight-bold fs-3 text-danger">Taekwondo</h6>
+                    </div>
+                    <div class="card-body">
+                        <!--Descripción-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left font-weight-bold text-info
+                                            text-uppercase mb-1 text-lg">Descripción
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800 text-justify">El Taekwondo es un arte marcial de
+                                                        origen coreano que se caracteriza por la utilización de patadas
+                                                        rápidas y altas, combinadas con técnicas de puño y bloqueos.
+                                                        Además de ser una disciplina de autodefensa, el Taekwondo también
+                                                        fomenta el desarrollo personal y la mejora física y mental.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Beneficios-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left font-weight-bold text-primary text-lg
+                                            text-uppercase mb-1">Beneficios
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800">
+                                                        <ul>
+                                                            <li>Desarrollo de la fuerza y la flexibilidad</li>
+                                                            <li>Mejora del equilibrio y la coordinación</li>
+                                                            <li>Desarrollo de la disciplina y el autocontrol</li>
+                                                            <li>Promoción de la autoconfianza y la autoestima</li>
+                                                            <li>Mejora de la concentración y el enfoque mental</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Instructor-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left text-lg font-weight-bold text-success
+                                            text-uppercase mb-1">Instructor
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="card" style="width:70%">
+                                                        <img class="card-img-top" src="img/tkd.avif" alt="Card image" style="width:90%">
+                                                        <div class="card-body">
+                                                          <h4 class="card-title">Lcdo. Julio Mora, Mgtr.</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Indumentaria-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-dark shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left text-lg font-weight-bold text-dark
+                                            text-uppercase mb-1">Indumentaria</div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800">
+                                                        <ul>
+                                                            <li>Dobok: El uniforme tradicional de Taekwondo, compuesto por chaqueta, pantalón y cinturón.</li>
+                                                            <li>Cinturón: Indica el nivel de habilidad del practicante, desde cinturón blanco (principiante) hasta cinturón negro (experto).</li>
+                                                            <li>Protectores: Incluyen protectores para el pecho, la cabeza, las espinillas y las manos, para garantizar la seguridad durante la práctica y la competición.</li>
+                                                            <li>Guantes y pies: Utilizados para la práctica de técnicas de puño y patada de forma segura.</li>
+                                                            <li>Protector bucal: Necesario para proteger los dientes durante la práctica y el combate.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="basketball">
+                <div class="card shadow mb-4">
+                    <div class="d-block card-header py-3">
+                        <h6 class="m-0 font-weight-bold fs-3 text-danger">Basketball</h6>
+                    </div>
+                    <div class="card-body">
+                        <!--Descripción-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left font-weight-bold text-info
+                                            text-uppercase mb-1 text-lg">Descripción
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800 text-justify">El baloncesto, también conocido como
+                                                        basketball, es un deporte de equipo en el que dos conjuntos
+                                                        compiten para encestar la pelota en la canasta del equipo
+                                                        contrario. Se juega en una cancha rectangular con un aro
+                                                        en cada extremo. El objetivo principal es acumular puntos
+                                                        encestando la pelota en la canasta del oponente, ubicada a
+                                                        diferentes alturas.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Beneficios-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left font-weight-bold text-primary text-lg
+                                            text-uppercase mb-1">Beneficios
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800">
+                                                        <ul>
+                                                            <li>Mejora de la condición física, incluyendo resistencia y agilidad.</li>
+                                                            <li>Desarrollo de habilidades motoras como el dribbling, el pase y el tiro.</li>
+                                                            <li>Promoción del trabajo en equipo y la comunicación.</li>
+                                                            <li>Desarrollo de habilidades cognitivas como la toma de decisiones rápida.</li>
+                                                            <li>Mejora de la coordinación mano-ojo y la concentración.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Instructor-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left text-lg font-weight-bold text-success
+                                            text-uppercase mb-1">Instructor
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="card" style="width:70%">
+                                                        <img class="card-img-top" src="img/basquet.jpg" alt="Card image" style="width:90%">
+                                                        <div class="card-body">
+                                                          <h4 class="card-title">Lcda. Diana Gómez, Mgtr.</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Indumentaria-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-dark shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left text-lg font-weight-bold text-dark
+                                            text-uppercase mb-1">Indumentaria</div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800">
+                                                        <ul>
+                                                            <li>Camiseta y pantalones cortos: Cómodos y transpirables para facilitar el movimiento.</li>
+                                                            <li>Zapatillas de baloncesto: Con suelas que proporcionan agarre en la cancha.</li>
+                                                            <li>Calcetines: Que cubran completamente el pie y proporcionen comodidad.</li>
+                                                            <li>Protectores: Algunos jugadores optan por usar protectores para las rodillas y codos.</li>
+                                                            <li>Canilleras (opcional): Para proteger la espinilla durante el juego.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="natacion">
+                <div class="card shadow mb-4">
+                    <div class="d-block card-header py-3">
+                        <h6 class="m-0 font-weight-bold fs-3 text-danger">Natación</h6>
+                    </div>
+                    <div class="card-body">
+                        <!--Descripción-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left font-weight-bold text-info
+                                            text-uppercase mb-1 text-lg">Descripción
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800 text-justify">La natación es un deporte acuático que
+                                                        implica el desplazamiento a través del agua mediante el uso de
+                                                        brazadas y patadas. Se practica en piscinas, aguas abiertas u
+                                                        otros cuerpos de agua. La natación es apreciada tanto como una
+                                                        forma de ejercicio recreativo como un deporte competitivo.
+                                                        Ofrece beneficios significativos para la salud y el bienestar.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Beneficios-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left font-weight-bold text-primary text-lg
+                                            text-uppercase mb-1">Beneficios
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800">
+                                                       <ul>
+                                                            <li>Mejora de la resistencia cardiovascular y la salud del corazón.</li>
+                                                            <li>Desarrollo de la fuerza muscular en todo el cuerpo.</li>
+                                                            <li>Quema efectiva de calorías y apoyo a la pérdida de peso.</li>
+                                                            <li>Reducción del estrés y mejora de la salud mental.</li>
+                                                            <li>Desarrollo de habilidades de supervivencia en el agua.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Instructor-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left text-lg font-weight-bold text-success
+                                            text-uppercase mb-1">Instructor
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="card" style="width:70%">
+                                                        <img class="card-img-top" src="img/nata.jpg" alt="Card image" style="width:90%">
+                                                        <div class="card-body">
+                                                          <h4 class="card-title">Lcdo. Jorge Apolo Illescas, Mgtr.</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Indumentaria-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-dark shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left text-lg font-weight-bold text-dark
+                                            text-uppercase mb-1">Indumentaria</div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800">
+                                                        <ul>
+                                                            <li>Traje de baño: Diseñado para minimizar la resistencia al agua y mejorar el rendimiento.</li>
+                                                            <li>Gafas de natación: Para proteger los ojos del cloro y mejorar la visión bajo el agua.</li>
+                                                            <li>Tapones para los oídos (opcional): Para prevenir la entrada de agua en los oídos.</li>
+                                                            <li>Chanclas: Para caminar cómodamente alrededor de la piscina o en áreas húmedas.</li>
+                                                            <li>Gorro de natación (opcional): Para proteger el cabello y mejorar la aerodinámica.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="opengym">
+                <div class="card shadow mb-4">
+                    <div class="d-block card-header py-3">
+                        <h6 class="m-0 font-weight-bold fs-3 text-danger">Open Gym</h6>
+                    </div>
+                    <div class="card-body">
+                        <!--Descripción-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left font-weight-bold text-info
+                                            text-uppercase mb-1 text-lg">Descripción
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800 text-justify">El ejercicio en el gimnasio es una forma
+                                                        popular de actividad física que implica el uso de equipos y
+                                                        pesas para mejorar la fuerza, la resistencia y la forma física
+                                                        general. Las personas acuden al gimnasio con diversos objetivos,
+                                                        que pueden incluir la pérdida de peso, el desarrollo muscular,
+                                                        la mejora de la salud cardiovascular y la tonificación corporal.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Beneficios-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left font-weight-bold text-primary text-lg
+                                            text-uppercase mb-1">Beneficios
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800">
+                                                        <ul>
+                                                            <li>Desarrollo de la fuerza muscular y tonificación del cuerpo.</li>
+                                                            <li>Mejora de la salud cardiovascular y la resistencia.</li>
+                                                            <li>Quema de calorías y apoyo a la pérdida de peso.</li>
+                                                            <li>Fortalecimiento de los huesos y mejora de la salud ósea.</li>
+                                                            <li>Reducción del estrés y mejora del bienestar mental.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Instructor-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left text-lg font-weight-bold text-success
+                                            text-uppercase mb-1">Instructor
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="card" style="width:70%">
+                                                        <img class="card-img-top" src="img/gym.png" alt="Card image" style="width:90%">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title">Lcda. Estefanía González, Mgtr.</h4>
+                                                          <h4 class="card-title">Lcdo. Franciso Rey Moran, Mgtr.</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Indumentaria-->
+                        <div class="col-lg-12 col-md-6 mb-4">
+                            <div class="card border-left-dark shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-md-left text-lg font-weight-bold text-dark
+                                            text-uppercase mb-1">Indumentaria</div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold
+                                                    text-gray-800">
+                                                        <ul>
+                                                            <li>Ropa cómoda y transpirable: Incluyendo camisetas, pantalones cortos o mallas.</li>
+                                                            <li>Zapatillas deportivas: Diseñadas para proporcionar apoyo y amortiguación durante el ejercicio.</li>
+                                                            <li>Guantes de levantamiento de pesas (opcional): Para proteger las manos durante ejercicios con pesas.</li>
+                                                            <li>Toalla de entrenamiento: Para secarse y mantener la higiene en las máquinas y equipos.</li>
+                                                            <li>Botella de agua: Importante para mantenerse hidratado durante el ejercicio.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="container-fluid">
+            <section class="colores_principales row d-flex justify-content-center">
+                <div class="fs-3">
+                    Síguenos en:
+                </div>
+                <div class="col-8 py-3 px-2 d-flex justify-content-between display-6">
+                    <a href="https://www.facebook.com/UPSEec" target="_blank" class="text-reset text-decoration-none"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/upse_ec" target="_blank" class="text-reset text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/UPSE_ec" target="_blank" class="text-reset text-decoration-none"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://m.youtube.com/@UpseSantaElena" target="_blank" class="text-reset text-decoration-none"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@upse_ec" target="_blank" class="text-reset text-decoration-none"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </section>
+        </footer>
+
+    </body>
+</html>
