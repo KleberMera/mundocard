@@ -12,5 +12,5 @@ document.addEventListener('DOMContentLoaded', function () {
         carousel.style.transform = 'translateX(' + translateValue + ')';
     }
 
-    setInterval(nextImage, 10000);
+    setInterval(nextImage, 5000);
 });
